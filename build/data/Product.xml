@@ -1,0 +1,263 @@
+<?xml version="1.0" standalone=no>
+
+<Economy>
+	<City name="City1">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+	<City name="City2">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+	<City name="City3">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+	<City name="City4">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+	<City name="City5">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+	<City name="City6">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+	<City name="City7">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+	<City name="City8">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+	<City name="City9">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+	<City name="City10">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+	<City name="City11">
+		<Product>
+			<Name>Sugar</Name>
+			<Value>5</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Cocoa</Name>
+			<Value>10</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Rum</Name>
+			<Value>7</Value>
+			<Demand>1</Demand>
+		</Product>
+		<Product>
+			<Name>Tobacco</Name>
+			<Value>20</Value>
+			<Demand>1</Demand>
+		</Product>
+	</City>
+
+</Economy>
+
+<Products>
+	<Name>Sugar</Name>
+	<Name>Cocoa</Name>
+	<Name>Rum</Name>
+	<Name>Tobacco</Name>
+</Products>

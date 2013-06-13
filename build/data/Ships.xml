@@ -1,0 +1,32 @@
+<Ship>
+	<Name>Sloop</Name>
+	<Model>./data/Ships/sloop.obj</Model>
+	<Texture>./data/Ships/sloop.png</Texture>
+	<Scale>1</Scale>
+	<Damage>10</Damage>
+	<CargoSize>100</CargoSize>
+</Ship>
+<Ship>
+	<Name>Fluyt</Name>
+	<Model>./data/Ships/fluyt.obj</Model>
+	<Texture>./data/Ships/fluyt.png</Texture>
+	<Scale>.32</Scale>
+	<Damage>10</Damage>
+	<CargoSize>100</CargoSize>
+</Ship>
+<Ship>
+	<Name>Brig</Name>
+	<Model>./data/Ships/brig.obj</Model>
+	<Texture>./data/Ships/brig.png</Texture>
+	<Scale>.32</Scale>
+	<Damage>10</Damage>
+	<CargoSize>100</CargoSize>
+</Ship>
+<Ship>
+	<Name>Schooner</Name>
+	<Model>./data/Ships/schooner.obj</Model>
+	<Texture>./data/Ships/schooner.png</Texture>
+	<Scale>.32</Scale>
+	<Damage>10</Damage>
+	<CargoSize>100</CargoSize>
+</Ship>

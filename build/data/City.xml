@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone=no>
+
+<object>
+	<name>City1</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>-110</x>
+		<z>-92</z>
+	</location>
+</object>
+
+<object>
+	<name>City2</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>-86</x>
+		<z>-228</z>
+	</location>
+</object>
+
+<object>
+	<name>City3</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>-38</x>
+		<z>-162</z>
+	</location>
+</object>
+
+<object>
+	<name>City4</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>-375</x>
+		<z>-21</z>
+	</location>
+</object>
+
+<object>
+	<name>City5</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>-315</x>
+		<z>0</z>
+	</location>
+</object>
+
+<object>
+	<name>City6</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>-277</x>
+		<z>-28</z>
+	</location>
+</object>
+
+<object>
+	<name>City7</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>236</x>
+		<z>-235</z>
+	</location>
+</object>
+
+<object>
+	<name>City8</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>18</x>
+		<z>-20</z>
+	</location>
+</object>
+
+<object>
+	<name>City9</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>77</x>
+		<z>-25</z>
+	</location>
+</object>
+
+<object>
+	<name>City10</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>4</x>
+		<z>25</z>
+	</location>
+</object>
+
+<object>
+	<name>City11</name>
+	<visible>TRUE</visible>
+	<location>
+		<x>87</x>
+		<z>-18</z>
+	</location>
+</object>

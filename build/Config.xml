@@ -1,0 +1,10 @@
+<GameConfiguration>
+	<Resolution>
+		<Width>800</Width>
+		<Height>600</Height>
+	</Resolution>
+	<Fullscreen>false</Fullscreen>
+	<VBO>false</VBO>
+	<SDLParachute>true</SDLParachute>
+</GameConfiguration>
+

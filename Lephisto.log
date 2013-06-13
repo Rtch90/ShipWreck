@@ -1,0 +1,33 @@
+Log Started: Sun Nov  4 22:08:00 2012
+
+Warning: Failed to open file (line 0) Using defaults
+Configuration:
+Resolution: 640 x 480
+Fullscreen: false
+Use VBOs: false
+Enable SDL Parachute: true
+Compress Textures: true
+
+Got video info
+Video mode set
+Extensions verified
+Audio initialised
+Current state pointer set
+Font lists generated
+Warning: Could not load ./data/font.png
+Font texture loaded
+Font texture bound
+Fonts built
+Warning: Could not load ./data/title.png
+Warning: Could not load ./data/background.png
+MainMenu initialised
+Main menu created
+
+And Suddenly! Out of the depths of hell came LEPHISTO!
+MainMenu deleted
+Audio shutdown
+SDL shutdown
+Shutdown sucessful
+
+Log Closed: Sun Nov  4 22:08:05 2012
+

@@ -1,0 +1,87 @@
+Lephisto : SaraCraft Studio's
+
+SaraCraft is looking to produce a 3D RPG, similar to http://pirates.wikia.com/wiki/Pirates_of_the_Caribbean_%28game%29
+It is simultaneously being developed in Linux and Windows, with a strong emphasis on cross-platform compatability.  
+The project is still early on in development, although it is just beginning to look like an actual game.
+
+I have added audio in this release using Ogg Vorbis files and OpenAL. Music is streamed off of the disk, 
+while the sound effects are loaded directly into memory. 
+I still have some tweaking to do, and currently do not take advantage of OpenAL's 3d capabilities.
+
+We have fairly complete naval battles now. 
+Players periodically see ships and have the choice to investigate further or sail away. 
+After the battle (assuming victory), the player may take the captured cargo. 
+More work will be done as I add additional gameplay features such as nationalities and ship crews.
+
+Basic trading capabilities are present now. You can now buy and sell goods in towns, 
+as well as capture cargo in naval battles. 
+I am making progress towards a more functional (and dynamic) economy.
+
+In order to allow for the trading and the naval battles, I reworked how ships are handled and added a few new ships.
+art is complimentary of a good friend of mine: Maja.
+
+Our menu system has been reworked to make creating menus easier for the developers. It also now allows for mouse input.
+Someone will still bitch at me.
+
+-------------------------------------------------------------------------------------------
+
+Once Maja provided the new model, I had to rewrite the model loading code so we could use it. 
+The new code is somewhat of a hybrid between the old system and what is planned for the future. 
+For now it still uses display lists, although I may move towards VA/VBO's in the future. 
+Eventually, I'll probably write my own model format, like .scm (saracraft model) but for now it just loads .obj files.
+
+There is a new automatic menu generation system, so we don't have to recode a basic menu everytime we need 
+to create a new menu in for the game. Rather than copying and pasting code, we can now just pass this menu 
+class a few lists and it will generate the menus automatically, cool huh?
+
+The ocean rendering has been updated. 
+The actual shore line no longer moves, which will allow us to improve the heightmap, 
+since low elevation land won't spend half of the time underwater. 
+There are also waves breaking on the shore lines. 
+The actual wave motion may change some, but the effect is pretty good in general.
+(Thanks to someone in ES IRC for noting that it was not too great, can not remember who)
+
+Requirements:
+SDL library
+SDL_image library
+video card capable of multi-texturing
+
+Config.xml:
+This is the configuration file. 
+It is now fairly straight-forward xml, loaded with the tinyxml library. 
+The Width and Height values should be integers and they determine the resolution of the window. 
+Fullscreen should be either "true" or "false" and change whether Lephisto runs fullscreen or in a window. 
+VBO should also be either "true" or "false" and specifies whether to use VBOs to draw the terrain or just vertex arrays. 
+If VBOs are enabled, but not supported by the video card, Lephisto logs a warning and falls back on vertex arrays. 
+The configuration loading code is now much more flexible, simpler, and more robust. 
+The SDLParachute should be set to "true" unless you are trying to get a core dump for debugging 
+(then set it to "false"). CompressTextures enables ("true") or disables ("false") compressing the textures when 
+they are stored in video memory. Almost everyone should be able to enable this setting, but if you have trouble, 
+you can try disabling compressed textures.
+
+Game Controls:
+ up - speed up
+ down - slow down
+ left - turn left
+ right - turn right
+ 'm' - display the map
+ 'q' - Fire port (left) cannons (in naval battles)
+ 'e' - Fire starboard (right) cannons (in naval batles)
+ 'c' - abrupt turn-around (for testing)
+ 'd' - dump player info (for testing)
+ 'z' - take screenshot
+ esc - go to the menu 
+
+When looking at the map, hold 't' and click the mouse to teleport to that location. 
+This is just a development feature, but it sure is useful for testing. Also, 'i' will display some debugging information.
+
+Known issues:
+- Errors loading files are not handled gracefully
+- Some Cities are difficult or impossible to enter
+- Closing the game window directly (without choosing "Exit" from the main menu) can cause crashes
+
+Developers:
+  Allanis
+
+Contributors:
+  VLack
